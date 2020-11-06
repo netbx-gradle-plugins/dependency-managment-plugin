@@ -1,0 +1,28 @@
+plugins {
+  id 'java'
+  id 'groovy'
+  id 'maven'
+  id 'checkstyle'
+  id 'eclipse'
+}
+
+repositories {
+  mavenCentral()
+  jcenter()
+  maven { url 'https://repo.gradle.org/gradle/libs-releases' }
+}
+
+group = 'io.netbx'
+description = 'Dependency management plugin for io.netbx products'
+
+ext {
+  
+}
+
+sourceCompatibility = '1.6'
+targetCompatibility = '1.6'
+
+dependencies {
+  compile gradleApi()
+  compile localGroovy()
+}
