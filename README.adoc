@@ -1,6 +1,7 @@
-=== Dependency Management Gradle Plugin
+== Dependency Management Gradle Plugin
+
 A gradle plugin that manages the dependencies with exclusion. This plugin provides an option configure the dependencies by importing an existing bom. The bom can be hosted in any url or it can be any local file.
 
-=== Credits
+== Credits
 
 This project is influenced by Spring's Dependency Management Plugin (https://github.com/spring-gradle-plugins/dependency-management-plugin)
